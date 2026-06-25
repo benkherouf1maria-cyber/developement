@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: aliceblue;
+    background-color: hsl(212, 45%, 89%);
     margin: 0;
 }
 
@@ -26,7 +26,7 @@ body{
 }
 .QR{
     
-    background-color: lab(100% 0.01 -0.01);
+    background-color: hsl(0, 0%, 100%);
     border-radius: 12px;
     width: min-content;    
     display: flex;

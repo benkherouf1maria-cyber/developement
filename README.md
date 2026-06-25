@@ -1,7 +1,5 @@
 # Frontend Mentor - QR code component solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
 ## Table of contents
 
 - [Overview](#overview)
@@ -13,6 +11,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
+- [Author](#author)
+
 
 
 
@@ -41,7 +41,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- 
 
 
 ### What I learned
@@ -83,9 +82,8 @@ i guess that would be the flex concept also the sizing of an element for diffren
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [BENKHEROUF MARIA](https://www.your-site.com)
+- Frontend Mentor - [@benkherouf1maria-cyber](https://www.frontendmentor.io/profile/benkherouf1maria-cyber)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+
 
