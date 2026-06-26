@@ -24,8 +24,8 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/benkherouf1maria-cyber/developement](https://github.com/benkherouf1maria-cyber/developement)
+- Live Site URL: [https://benkherouf1maria-cyber.github.io/developement/](https://benkherouf1maria-cyber.github.io/developement/)
 
 ## My process
 
