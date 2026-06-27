@@ -18,7 +18,10 @@
 
 ## Overview
 
-###proof
+- Here is a guide to my journey with solving the "qr code design" which i completed the design is almost identical to the provided design by front-end mentor and is responsive to different screen sizes .
+
+
+### proof
 
 - screenshot : ![Screenshot](images/sshot.png)
 
@@ -31,24 +34,21 @@
 
 ### struggles
 
-- with the positioninig of the qr code component
+- with the positioning of the qr code component
 - positioning of the elements inside the qr code
 - figuring Flexbox with direction set as a column rather than a row
+- adjusting the width of the image and the whole qr code component 
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
+
 
 
 ### What I learned
 
-i learned that coding is hard and tricky its such a wide area figuring out things might get you feeling lost and hopeless 
-
-apart from the psycological things i learned how to center a div element
-i surrounded it with a container div in index.html
+- i learned how to center a div element ,i surrounded it with a container div in index.html
 ```html
   <div class="container">
     <div class="QR">
@@ -58,7 +58,7 @@ i surrounded it with a container div in index.html
     </div>
   </div>
 ```
-then in style.css 
+ then in style.css 
 ```css
 .container {
     display: flex;
@@ -67,6 +67,44 @@ then in style.css
     height: 100vh;
 }
 ```
+- I also learned to set a max width to elements like in this project the image and the qr code component to allow them to shrink in small screens however i figured that makes them always take the smallest possible width so i also set the width of the qr code component to 40% of its container which is a div so a block level element
+```css
+.QR{   
+    max-width:270px;   
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.139) 3px 3px 9px ;
+       
+}
+.QR-img{
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;
+    width: 100%;
+    padding: 10px 10px 0px;
+}
+.QR-img img{
+    
+    width: 100%;
+    max-width: 250px;
+    height:auto;
+    border-radius: 10px;
+    margin:0px;
+   
+}
+```
+- with the flex display i learned that if the flex-direction is set to column one should use "align-items" to put the elements in the center of their container box
+```css
+.QR{   
+    .........
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .........       
+}
+``` 
 
 
 
@@ -75,10 +113,7 @@ then in style.css
 i guess that would be the flex concept also the sizing of an element for diffrent screen sizes
 ### Useful resources
 
-- [chat gpt](https://www.example.com) - This helped me in css also to understand why i did this and that on a deeper level
-
-
-
+- [a ytb tutorial of html/css](https://www.youtube.com/watch?v=HGTJBPNC-Gw) - This helped me in css also to understand why i did this and that on a deeper level
 
 ## Author
 
